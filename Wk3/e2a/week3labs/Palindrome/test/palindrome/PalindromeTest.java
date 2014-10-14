@@ -37,9 +37,9 @@ public class PalindromeTest extends TestCase {
         Palindrome instance = new Palindrome();
         
         int num[] = {121,1,123,555,456,464,1236321,8789};
-        boolean expResult[] = {true,true,false,true,false,true,false,false};
+        boolean expResult[] = {true,true,false,true,false,true,true,false};
         
-        for (int i=0;i<50;i++)
+        for (int i=0;i<(expResult.length);i++)
         {
  
         boolean result = instance.isPalindrome(num[i]);
