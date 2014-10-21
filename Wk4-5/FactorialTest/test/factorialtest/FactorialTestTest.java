@@ -18,8 +18,8 @@ public class FactorialTestTest extends TestCase {
         
       Factorial tester = new Factorial();
       
-      int input[] = {1,5,6,9,8,10};
-      int expected[] = {1,120,720,362880,40320,3628800};
+      int input[] = {1,5,6,9,8,10,-20};
+      int expected[] = {1,120,720,362880,40320,3628800,-1};
       
       int actual;
       
