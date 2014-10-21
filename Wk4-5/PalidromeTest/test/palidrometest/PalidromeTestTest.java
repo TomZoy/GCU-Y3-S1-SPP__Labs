@@ -19,8 +19,8 @@ public class PalidromeTestTest extends TestCase {
 
         StringPalindrome tester = new StringPalindrome();
         
-        String input[] = {"alma","ala","alabama","asdkdsa"};
-        boolean expected[]={false,true,false,true};
+        String input[] = {"alma","ala","alabama","asdkdsa","asddsa","a"};
+        boolean expected[]={false,true,false,true,true,true};
         boolean actual;
         
         
